@@ -1,0 +1,40 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    It limited my scanning to just the differences between the two files.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    I could see the evolution of the file.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Pro: I have more control over definition of incremental changes.
+	Con: Could lose code if I hadn't committed and the system crashed?
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    When writing software, interconnectedness betwen files is usually important.
+	When writing a document, it's often just one file you care about.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log shows all commits and their (long) id strings.
+	git diff takes two arguments, the id of the earlier commit and the id of the later commit.
+	git diff shows you what lines were added and what lines were deleted.
+	If anything was changed on a line, you'll see a deletion of the original line and an addition of the new line.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    If I fuck something up, it's easy to go back to an earlier commit.
+	Use the git checkout command.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I need to get silly polartrig.R into bedrock.
+	I need to use git to manage my PMT source code.
