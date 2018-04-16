@@ -1,7 +1,10 @@
 When would you want to use a remote repository rather than keeping all your work
 local?
 
-    Fill in your answer here
+    Several good reasons:
+    The remote repo serves as a backup.
+    The r=emote backup is now visable to others, both to peruse and to clone.
+    Having a remore repo enables collaboration via pushes, pulls, and branching. 
 
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
