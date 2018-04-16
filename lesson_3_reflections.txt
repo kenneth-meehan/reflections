@@ -3,13 +3,16 @@ local?
 
     Several good reasons:
     The remote repo serves as a backup.
-    The r=emote backup is now visable to others, both to peruse and to clone.
-    Having a remore repo enables collaboration via pushes, pulls, and branching. 
+    The remote backup is now visible to others, both to peruse and to clone.
+    Having a remote repo enables collaboration via pushes, pulls, and branching. 
 
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-    Fill in your answer here
+    You probably want to limit traffic between remote and local repos.
+	When working on you local machine, you might want to be editing what you last pulled,
+	and not muck up the water by getting code updated by someone else.
+	
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
