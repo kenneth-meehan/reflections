@@ -17,7 +17,13 @@ automatically stay up-to-date with your remote repository?
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Fill in your answer here
+    You fork somebody's else's repo on github to create a copy for yourself, also on github.
+		Forking increments the forking counter on the source repo,
+		and establishes links should you want to later issue pull requests (I think).
+	You clone a repo to make a copy without the accounting of forking.
+		You can clone remote to local, or local to local.
+	A single repo can have multiple branches, useful to isolate code for distinct features,
+	either for yourself or--more powerfully--with collaborators.
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
